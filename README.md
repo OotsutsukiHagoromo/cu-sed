@@ -54,9 +54,13 @@ sed-4.9-x64.exe -Ef redact.sed your_file
 
   ```bash
   sed -E -f redact.sed your_file | less
-  # или
+  ```
+  или
+  ```bash
   sed -E -f redact.sed your_file | bat
-  # или
+  ```
+  или
+  ```bash
   sed -E -f redact.sed your_file | batcat
   ```
 
