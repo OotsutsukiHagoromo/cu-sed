@@ -29,9 +29,14 @@ sed -E -f redact.sed your_file
 brew install gsed
 ```
 
+### Windows
+
+Для Windows есть [порт](https://github.com/mbuilov/sed-windows) (см. раздел «Pre-built executables»).
+
+
 ## Комментарии
 
-* При этом вывод будет показан в терминале. Если вывод слишком длинный, можно
+* Вывод будет показан в терминале. Если вывод слишком длинный, можно
   использовать команду `less` или `batcat` (она же `bat`):
 
   ```bash
@@ -61,5 +66,7 @@ brew install gsed
   ```bash
   sed -E -f redact.sed > your_file
   ```
+
+* Чтобы закомментировать строку или часть строки, используйте `#`
 
 vim:ts=2:sw=2:expandtab
