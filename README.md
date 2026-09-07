@@ -17,7 +17,7 @@ sed -E -f <путь_к_основному_каталогу>/redact.sed your_file
 
 Также можно объединить ключи `-E` и `-f`:
 ```bash
-sed -E -f redact.sed your_file
+sed -Ef redact.sed your_file
 ```
 
 ### MacOS
