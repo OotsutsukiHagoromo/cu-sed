@@ -74,4 +74,6 @@ sed-4.9-x64.exe -Ef redact.sed your_file
 
 * Чтобы закомментировать строку или часть строки в `sed`-файле, используйте `#`
 
-<!-- vim:ts=2:sw=2:expandtab />
+<!--
+  vim:ts=2:sw=2:expandtab
+-->
